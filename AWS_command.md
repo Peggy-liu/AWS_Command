@@ -11,3 +11,6 @@ $ssh -i "mykey.pem" ec2-user@[public ip DNS/address]
 $sudo yum install httpd -y
 ## start the server
 $sudo service httpd start
+## Add a welcome page for the web server
+$sudo vi /var/www/html/index.html
+
