@@ -14,8 +14,8 @@ $sudo service httpd start
 ## Add a welcome page for the web server
 $sudo vi /var/www/html/index.html
 
-#find out configuration of the security groups in amazon
-##Step 1: manually create security groups and rules a through amazon user console
-##Step 2: copy the security group ID, and run command AWSCLI in terminal:
+# find out configuration of the security groups in amazon
+## Step 1: manually create security groups and rules a through amazon user console
+## Step 2: copy the security group ID, and run command AWSCLI in terminal:
 $aws ec2 describe-security-groups --group-ids [security-group-id]
 
