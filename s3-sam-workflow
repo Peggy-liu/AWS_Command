@@ -1,34 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T13:56:25.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="cNLSEWM6oYazOlrT2r6Y" version="13.10.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-01T15:31:13.923Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="1fNJ86gPMC8N_N-JEsNl" version="13.10.5" type="github">
   <diagram id="8lwv6I0iHctElmijvlfq" name="Page-1">
     <mxGraphModel dx="1426" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="peUhRnd-g68MKZqp0YFm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="peUhRnd-g68MKZqp0YFm-1" target="peUhRnd-g68MKZqp0YFm-2">
+        <mxCell id="peUhRnd-g68MKZqp0YFm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="peUhRnd-g68MKZqp0YFm-16" target="peUhRnd-g68MKZqp0YFm-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="peUhRnd-g68MKZqp0YFm-4" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="peUhRnd-g68MKZqp0YFm-3">
-          <mxGeometry x="-0.275" y="-2" relative="1" as="geometry">
-            <mxPoint x="12" y="-2" as="offset" />
+        <mxCell id="peUhRnd-g68MKZqp0YFm-16" value="In template.yml, set codeUri to local path" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="peUhRnd-g68MKZqp0YFm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="peUhRnd-g68MKZqp0YFm-17" target="peUhRnd-g68MKZqp0YFm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="peUhRnd-g68MKZqp0YFm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="peUhRnd-g68MKZqp0YFm-17" target="peUhRnd-g68MKZqp0YFm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="peUhRnd-g68MKZqp0YFm-17" value="After finish the coding" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="peUhRnd-g68MKZqp0YFm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="peUhRnd-g68MKZqp0YFm-18" target="peUhRnd-g68MKZqp0YFm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="peUhRnd-g68MKZqp0YFm-26" value="trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="peUhRnd-g68MKZqp0YFm-25">
+          <mxGeometry x="-0.3043" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="peUhRnd-g68MKZqp0YFm-1" value="Finish the code and push to Github repo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="peUhRnd-g68MKZqp0YFm-18" value="Push the code to github" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="peUhRnd-g68MKZqp0YFm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="peUhRnd-g68MKZqp0YFm-2" target="peUhRnd-g68MKZqp0YFm-5">
+        <mxCell id="peUhRnd-g68MKZqp0YFm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="peUhRnd-g68MKZqp0YFm-19" target="peUhRnd-g68MKZqp0YFm-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="peUhRnd-g68MKZqp0YFm-2" value="Github Action: perform S3 sync on the whole repository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="peUhRnd-g68MKZqp0YFm-19" value="build artifact using&amp;nbsp;&lt;br&gt;&quot;sam build&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="peUhRnd-g68MKZqp0YFm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="peUhRnd-g68MKZqp0YFm-5" target="peUhRnd-g68MKZqp0YFm-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="peUhRnd-g68MKZqp0YFm-23" value="Github action&amp;nbsp;&lt;br&gt;&quot;aws s3 sync&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="peUhRnd-g68MKZqp0YFm-5" value="Updated code is now in S3 bucket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="peUhRnd-g68MKZqp0YFm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="peUhRnd-g68MKZqp0YFm-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="peUhRnd-g68MKZqp0YFm-7" value="build and deploy SAM application referring codeURL as S3 bucket URL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="peUhRnd-g68MKZqp0YFm-27" value="deploy using &quot;sam deploy --guided&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="peUhRnd-g68MKZqp0YFm-30" value="Artifacts will be archived into a zip file and pushed to the S3 bucket according to the configuration in &quot;samconfig.toml&quot;&lt;br&gt;(can manually set parameters in this file)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="610" width="210" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
